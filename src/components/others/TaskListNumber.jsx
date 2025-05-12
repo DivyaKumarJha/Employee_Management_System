@@ -6,7 +6,7 @@ const TaskListNumber = ({data}) => {
           return null; // or a loading indicator
         }
   return (
-    <div className='flex mt-10 justify-between gap-5 screen'>
+    <div className='flex mt-10 h-44 justify-between gap-5 screen'>
      <div className='rounded-xl bg-red-400 w-[45%] px-9 py-6'>
           <h2 className='text-3xl font-semibold'>{data.taskCounts.newTask}</h2>
           <h3 className='text-xl font-medium'>New Task</h3>
